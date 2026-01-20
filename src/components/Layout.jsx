@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 import { Link, useLocation } from "react-router-dom";
-import { LayoutDashboard, Box, Upload, LogOut, Menu, X, User } from "lucide-react";
+import { LayoutDashboard, Box, Upload, LogOut, Menu, X, User, ShoppingCart } from "lucide-react";
 import { useUser, useClerk } from "@clerk/clerk-react";
 import DashboardNavbar from "./DashboardNavbar";
 import piLogo from "../assets/pi_global_logo.jpeg";
@@ -14,6 +14,7 @@ const Layout = ({ children }) => {
   const navItems = [
     { label: "Dashboard", path: "/dashboard", icon: <LayoutDashboard size={20} /> },
     { label: "Products", path: "/dashboard/products", icon: <Box size={20} /> },
+    { label: "Orders", path: "/dashboard/orders", icon: <ShoppingCart size={20} /> },
     { label: "Upload Media", path: "/dashboard/upload", icon: <Upload size={20} /> },
     { label: "Profile", path: "/dashboard/profile", icon: <User size={20} /> },
   ];
