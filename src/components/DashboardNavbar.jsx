@@ -24,6 +24,7 @@ import {
 } from 'lucide-react';
 import { useAuth, useUser } from '@clerk/clerk-react';
 import { useTheme } from '../contexts/ThemeContext';
+import piLogo from '../assets/pi_global_logo.jpeg';
 
 const DashboardNavbar = ({ onMenuToggle }) => {
   const [isProfileOpen, setIsProfileOpen] = useState(false);
@@ -133,7 +134,7 @@ const DashboardNavbar = ({ onMenuToggle }) => {
                 className="w-10 h-10 rounded-lg overflow-hidden shadow-md"
               >
                 <img
-                  src="/src/assets/pi_global_logo.jpeg"
+                  src="{piLogo}"
                   alt="PI Global Logo"
                   className="w-full h-full object-cover"
                 />

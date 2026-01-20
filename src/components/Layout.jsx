@@ -3,6 +3,7 @@ import { Link, useLocation } from "react-router-dom";
 import { LayoutDashboard, Box, Upload, LogOut, Menu, X, User } from "lucide-react";
 import { useUser, useClerk } from "@clerk/clerk-react";
 import DashboardNavbar from "./DashboardNavbar";
+import piLogo from "../assets/pi_global_logo.jpeg";
 
 const Layout = ({ children }) => {
   const { user } = useUser();
@@ -37,7 +38,7 @@ const Layout = ({ children }) => {
             <div className="flex items-center space-x-3">
               <div className="w-10 h-10 rounded-lg overflow-hidden shadow-md">
                 <img
-                  src="/src/assets/pi_global_logo.jpeg"
+                  src="{piLogo}"
                   alt="PI Global Logo"
                   className="w-full h-full object-cover"
                 />
