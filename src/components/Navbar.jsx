@@ -79,7 +79,7 @@ const Navbar = () => {
                 className="relative w-12 h-12 rounded-xl overflow-hidden shadow-lg group-hover:shadow-indigo-500/25 transition-shadow duration-300"
               >
                 <img
-                  src="{piLogo}"
+                  src={piLogo}
                   alt="PI Global Logo"
                   className="w-full h-full object-cover"
                 />
@@ -299,7 +299,7 @@ const Navbar = () => {
               >
                 <div className="w-16 h-16 mx-auto rounded-2xl overflow-hidden shadow-lg">
                   <img
-                    src="{piLogo}"
+                    src={piLogo}
                     alt="PI Global Logo"
                     className="w-full h-full object-cover"
                   />
