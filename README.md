@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # Purchase-Inventory Management System
 
 A modern, full-featured inventory management system built with React, designed specifically for Indian businesses with GST compliance and professional UI/UX.
@@ -237,3 +238,7 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 **Made with ❤️ for Indian businesses**
 
 *Simplifying inventory management with modern technology*
+=======
+# Purchase-Inventory
+A comprehensive inventory management system designed to track stock levels, manage orders, and streamline warehouse operations.
+>>>>>>> 709fd960cea16692dd9e875524196ba3da55305a
