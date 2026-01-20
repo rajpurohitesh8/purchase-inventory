@@ -1,6 +1,8 @@
 <<<<<<< HEAD
 # Purchase-Inventory Management System
 
+[![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/clone?repository-url=https://github.com/rajpurohitesh8/Purchase-Inventory)
+
 A modern, full-featured inventory management system built with React, designed specifically for Indian businesses with GST compliance and professional UI/UX.
 
 ## 🚀 Features
