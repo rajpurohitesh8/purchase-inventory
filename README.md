@@ -1,4 +1,5 @@
 <<<<<<< HEAD
+<<<<<<< HEAD
 # Purchase-Inventory Management System
 
 [![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/clone?repository-url=https://github.com/rajpurohitesh8/Purchase-Inventory)
@@ -244,3 +245,7 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 # Purchase-Inventory
 A comprehensive inventory management system designed to track stock levels, manage orders, and streamline warehouse operations.
 >>>>>>> 709fd960cea16692dd9e875524196ba3da55305a
+=======
+# Purchase-Inventory
+A comprehensive inventory management system designed to track stock levels, manage orders, and streamline warehouse operations.
+>>>>>>> f83f0a1eafddd8f3590333a34d0c7d9756cb7e31
